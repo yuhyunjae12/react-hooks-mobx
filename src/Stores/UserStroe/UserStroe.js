@@ -19,6 +19,11 @@ export default class UsersStore{
         this.loginCheck = false
     }
 
+    @action
+    setUserName = (name) =>{
+        this.userName = name
+    }
+
     @computed
     get getLoginCheck (){
         return this.loginCheck
