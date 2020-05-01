@@ -2,7 +2,7 @@ import { observable, action, computed } from "mobx";
 
 export default class UsersStore{
 
-    @observable loginCheck = false;
+    @observable loginCheck = true;
     @observable userName = 'name'
 
     constructor(root){
